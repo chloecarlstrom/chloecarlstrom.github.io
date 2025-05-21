@@ -2,10 +2,4 @@
 title: "Chloe Carlstrom"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hi! My name is Chloe and I am a soon-to-be graduate of the University of California, Santa Barbara. I am an Environmental Studies B.S. student especially interested in conservation, restoration ecology, sustainable food systems, and marine biology.
