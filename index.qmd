@@ -1,6 +1,6 @@
 ---
 title: "Chloe Carlstrom"
-image: downloads/IMG_1293.JPG
+image: images/gradphoto.jpeg
 toc: false
 about: 
   template: jolla
