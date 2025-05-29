@@ -1,5 +1,5 @@
 ---
-title: "crafts"
+title: "Crafts"
 format: html
 ---
 
