@@ -1,6 +1,6 @@
 ---
 title: "Chloe Carlstrom"
-image: images/gradphoto.jpeg
+image: images/websitegradpic.jpg
 toc: false
 about: 
   template: jolla
