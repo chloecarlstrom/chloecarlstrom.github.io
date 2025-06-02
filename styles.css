@@ -7,3 +7,9 @@
 p {
   color: cornflowerblue;
 }
+
+figcaption {
+  color: teal;
+  font-style: italic;
+  text-align: center;
+}
