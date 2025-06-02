@@ -5,7 +5,7 @@ toc: false
 about: 
   template: jolla
   image-shape: round
-  image-width: 17em
+  image-width: 20em
 ---
 
 Hi! My name is Chloe and I am a soon-to-be graduate of the University of California, Santa Barbara. I am an Environmental Studies B.S. student especially interested in conservation, restoration ecology, sustainable food systems, and marine biology.
