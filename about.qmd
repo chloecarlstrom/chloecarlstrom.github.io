@@ -1,9 +1,12 @@
 ---
 title: "About Me"
+format: html
 ---
 
 # Background
 
 I was born and raised in San Francisco, California. I grew up spending lots of time in nature whether that was playing sports or hiking. I fell in love with the outdoors at a young age and have been passionate about the environment ever since!
 
-\![\](images/backpacking.jpeg)\
+![Backpacking in Eastern Sierra Age 6](images/backpacking.jpeg){width="500"}
+
+\
