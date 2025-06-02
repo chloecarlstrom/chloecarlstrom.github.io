@@ -1,9 +1,5 @@
 ---
 title: "About Me"
+format: html
+page-layout: article
 ---
-
-About this site
-
-```{r}
-1 + 1
-```
