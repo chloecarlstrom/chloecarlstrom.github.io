@@ -7,6 +7,12 @@ format: html
 
 I was born and raised in San Francisco, California. I grew up spending lots of time in nature whether that was playing sports or hiking. I fell in love with the outdoors at a young age and have been passionate about the environment ever since!
 
-![Backpacking in the Eastern Sierra, age 6](images/backpacking.jpeg){style="color: darkcyan;" width="500"}
+![](images/backpacking.jpeg){width="200"}
 
-\
+## Education
+
+I currently attend UCSB, where I am pursuing a degree in Environmental Studies. In the fall of my junior year I studied abroad in Chile at the Pontificia Universidad de Chile, where I learned about socio-ecological sustainability and practiced my Spanish, while being immersed in a new culture, and exploring new landscapes.
+
+![](images/volcano.jpeg){fig-align="left" width="150"}
+
+![](images/atacama.jpeg){fig-align="center" width="200"}
