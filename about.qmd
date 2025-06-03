@@ -7,22 +7,10 @@ format: html
 
 I was born and raised in San Francisco, California. I grew up spending lots of time in nature whether that was playing sports or hiking. I fell in love with the outdoors at a young age and have been passionate about the environment ever since!
 
-![](images/backpacking.jpeg){width="200"}
-
-## Education
+## ![]()Education
 
 I currently attend UCSB, where I am pursuing a degree in Environmental Studies. In the fall of my junior year I studied abroad in Chile at the Pontificia Universidad de Chile, where I learned about socio-ecological sustainability and practiced my Spanish, while being immersed in a new culture, and exploring new landscapes.
-
-<div style="display: flex; gap: rem;">
-
-<img src="images/volcano.jpeg"  width="150">
-
-<img src="images/atacama.jpeg"  width="200">
-
-</div>
 
 ## Interests
 
 I love everything outdoors! I grew up camping and backpacking. I love to run, bike, and surf. I enjoy cooking and crafting, such as knitting, crocheting, or watercolor. I am passionate about working towards a sustainable future, working on climate change mitigation, and protecting biodiversity.
-
-![](images/halfmary.jpeg){width="200"}
