@@ -13,13 +13,13 @@ I was born and raised in San Francisco, California. I grew up spending lots of t
 
 I currently attend UCSB, where I am pursuing a degree in Environmental Studies. In the fall of my junior year I studied abroad in Chile at the Pontificia Universidad de Chile, where I learned about socio-ecological sustainability and practiced my Spanish, while being immersed in a new culture, and exploring new landscapes.
 
-<div style="text-align: left;">
+<div style="display: flex; gap: rem;">
 
-<img src="images/volcano.jpeg"  width="150"></div>
+<img src="images/volcano.jpeg"  width="150">
 
-<div style="text-align: center;">
+<img src="images/atacama.jpeg"  width="200">
 
-<img src="images/atacama.jpeg"  width="200"></div>
+</div>
 
 ## Interests
 
