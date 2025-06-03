@@ -13,3 +13,7 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
+img {
+  display: inline-block;
+}
