@@ -15,6 +15,11 @@ h2 {
   color: teal;
 }
 
+h1.title {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
 figcaption {
   color: teal;
   font-style: italic;
