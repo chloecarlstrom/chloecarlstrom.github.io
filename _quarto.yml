@@ -10,7 +10,7 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
-      - crafts.qmd
+      - extra.qmd
       - resume.qmd
 
 format:
