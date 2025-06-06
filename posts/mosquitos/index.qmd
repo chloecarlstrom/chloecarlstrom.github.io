@@ -6,7 +6,7 @@ author:
   - name: Stephanie Copeland (PhD student)
   - name: Kate Joos (undergrad)
 date: 06/05/25
-
+image: images/IMG_5579.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
