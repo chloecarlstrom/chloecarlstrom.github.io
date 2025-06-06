@@ -17,6 +17,6 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 <link href="/lightbox/lightbox.min.css" rel="stylesheet" />
 <script src="/lightbox/lightbox.min.js"></script>
 
-<a href="/images/poster-full.png" data-lightbox="poster" data-title="Scientific Poster">
-  <img src="/images/poster-full.png" alt="Poster" style="max-width: 800px; border: 1px solid #ccc;">
+<a href="/images/poster-full.png" data-lightbox="poster" data-title="Full Poster">
+  <img src="/images/poster-full.png" alt="Poster" style="max-width: 800px; border: 1px solid #ccc; cursor: zoom-in;">
 </a>
