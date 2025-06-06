@@ -20,5 +20,15 @@ format:
     toc: true
     page-layout: full
 
-editor: visual
+
+links: 
+    links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/chloe-carlstrom-6a12a3333/
+    - text: GitHub
+      href: https://github.com/chloecarlstrom
+    - text: Email
+      href: mailto:chloecarlstrom@ucsb.edu
+---
+
 
