@@ -7,7 +7,6 @@ about:
   image-shape: round
   image-width: 20em
 links: 
-    links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/chloe-carlstrom-6a12a3333/
     - text: GitHub
