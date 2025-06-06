@@ -53,3 +53,6 @@ a:hover {
   color: aquamarine !important;
   font-weight: bold;
 }
+.listing-description {
+  display: none;
+}
