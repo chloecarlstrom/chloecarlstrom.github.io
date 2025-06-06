@@ -6,7 +6,7 @@ author:
   - name: Stephanie Copeland
   - name: Kate Joos
 date: 2025-06-05
-image: images/IMG_5579.jpeg
+image: images/sierras1.jpeg
 draft: false
 format: html
 categories: [Fieldwork, Research]
