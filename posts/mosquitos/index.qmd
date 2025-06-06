@@ -1,13 +1,15 @@
 ---
 title: "Impact of Human Recreation on Mosquito Density in the Eastern Sierra Nevada"
-description: "I assisted a PhD candidate in research mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density"
+description: "I assisted a PhD candidate in researching mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density."
 author:
   - name: Chloe Carlstrom
-  - name: Stephanie Copeland (PhD student)
-  - name: Kate Joos (undergrad)
-date: 06/05/25
+  - name: Stephanie Copeland
+  - name: Kate Joos
+date: 2025-06-05
 image: images/IMG_5579.jpeg
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false
+format: html
+categories: [Fieldwork, Research]
 ---
 
 This past summer I spent 6 weeks in the back country of the Eastern Sierra Nevada collecting and analyzing mosquitoes. 
