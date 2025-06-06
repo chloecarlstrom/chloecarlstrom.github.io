@@ -17,14 +17,13 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 <!-- Load Panzoom library from CDN -->
 <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@9.4.0/dist/panzoom.min.js"></script>
 
-<!-- Optional styling for container and image -->
 <style>
 #zoom-container {
   max-width: 800px;
   margin: 2em auto;
   border: 1px solid #ccc;
   overflow: hidden;
-  touch-action: none; /* helps on mobile devices */
+  touch-action: none;
 }
 #zoom-target {
   width: 100%;
@@ -33,18 +32,22 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 }
 </style>
 
-## Interactive Poster Viewer
+## Poster
 
 <div id="zoom-container">
   <img id="zoom-target" src="/images/poster-full.png" alt="Zoomable Poster">
 </div>
 
 <script>
-  const el = document.getElementById('zoom-target');
-  panzoom(el, {
-    maxScale: 5,
-    minScale: 1,
-    bounds: true,
-    boundsPadding: 0.1
+  document.addEventListener("DOMContentLoaded", function () {
+    const el = document.getElementById('zoom-target');
+    if (el) {
+      panzoom(el, {
+        maxScale: 5,
+        minScale: 1,
+        bounds: true,
+        boundsPadding: 0.1
+      });
+    }
   });
 </script>

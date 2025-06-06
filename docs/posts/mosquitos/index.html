@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interactive-poster-viewer" id="toc-interactive-poster-viewer" class="nav-link active" data-scroll-target="#interactive-poster-viewer">Interactive Poster Viewer</a></li>
+  <li><a href="#poster" id="toc-poster" class="nav-link active" data-scroll-target="#poster">Poster</a></li>
   </ul>
 </nav>
     </div>
@@ -175,14 +175,13 @@ ul.task-list li input[type="checkbox"] {
 <p>I assisted a PhD candidate in research mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density. We spent six weeks in the back country collecting mosquito samples from 20 lakes within eight different basins. We sorted mosquitoes to find females that had taken a recent blood meal in order to determine host species. Our results depict a declining mosquito abundance with increasing distance from trailheads and that humans, as a host population play a main role in contributing to increasing mosquito density.</p>
 <!-- Load Panzoom library from CDN -->
 <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@9.4.0/dist/panzoom.min.js"></script>
-<!-- Optional styling for container and image -->
 <style>
 #zoom-container {
   max-width: 800px;
   margin: 2em auto;
   border: 1px solid #ccc;
   overflow: hidden;
-  touch-action: none; /* helps on mobile devices */
+  touch-action: none;
 }
 #zoom-target {
   width: 100%;
@@ -190,18 +189,22 @@ ul.task-list li input[type="checkbox"] {
   user-select: none;
 }
 </style>
-<section id="interactive-poster-viewer" class="level2">
-<h2 data-anchor-id="interactive-poster-viewer">Interactive Poster Viewer</h2>
+<section id="poster" class="level2">
+<h2 data-anchor-id="poster">Poster</h2>
 <div id="zoom-container">
 <p><img id="zoom-target" src="../../images/poster-full.png" alt="Zoomable Poster"></p>
 </div>
 <script>
-  const el = document.getElementById('zoom-target');
-  panzoom(el, {
-    maxScale: 5,
-    minScale: 1,
-    bounds: true,
-    boundsPadding: 0.1
+  document.addEventListener("DOMContentLoaded", function () {
+    const el = document.getElementById('zoom-target');
+    if (el) {
+      panzoom(el, {
+        maxScale: 5,
+        minScale: 1,
+        bounds: true,
+        boundsPadding: 0.1
+      });
+    }
   });
 </script>
 
