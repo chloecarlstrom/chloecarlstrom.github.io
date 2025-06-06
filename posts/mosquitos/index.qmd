@@ -9,6 +9,7 @@ image: /images/sierras1.jpeg
 draft: false
 format: html
 categories: [Fieldwork, Research]
+summary: ""
 ---
 
 This past summer I spent 6 weeks in the back country of the Eastern Sierra Nevada collecting and analyzing mosquitoes.
