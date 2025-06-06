@@ -14,43 +14,25 @@ summary: " "
 
 I assisted a PhD candidate in research mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density. We spent six weeks in the back country collecting mosquito samples from 20 lakes within eight different basins. We sorted mosquitoes to find females that had taken a recent blood meal in order to determine host species. Our results depict a declining mosquito abundance with increasing distance from trailheads and that humans, as a host population play a main role in contributing to increasing mosquito density.
 
-<!-- Load Panzoom from CDN -->
-<script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@9.4.0/dist/panzoom.min.js"></script>
-
 <style>
-#zoom-container {
-  max-width: 800px;
-  margin: 2em auto;
-  border: 1px solid #ccc;
-  overflow: hidden;
-  touch-action: none;
-}
-#zoom-target {
+.zoom-container {
   width: 100%;
-  cursor: grab;
-  user-select: none;
+  max-width: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.zoom-container img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.zoom-container:hover img {
+  transform: scale(1.8); /* Adjust zoom level */
+  transform-origin: center center;
 }
 </style>
 
-## Zoomable Poster
-
-<div id="zoom-container">
-  <img id="zoom-target" src="/images/poster-full.png" alt="Zoomable Poster">
+<div class="zoom-container">
+  <img src="/images/poster-full.png" alt="Zoomable Poster">
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Wait until panzoom is defined
-    if (typeof panzoom === "function") {
-      const el = document.getElementById('zoom-target');
-      panzoom(el, {
-        maxScale: 5,
-        minScale: 1,
-        bounds: true,
-        boundsPadding: 0.1
-      });
-    } else {
-      console.error("Panzoom failed to load.");
-    }
-  });
-</script>
