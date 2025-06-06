@@ -1,6 +1,5 @@
 ---
 title: "Impact of Human Recreation on Mosquito Density in the Eastern Sierra Nevada"
-description: "I assisted a PhD candidate in researching mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density."
 author:
   - name: Chloe Carlstrom
   - name: Stephanie Copeland
