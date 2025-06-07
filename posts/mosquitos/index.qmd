@@ -14,6 +14,8 @@ summary: " "
 
 I assisted a PhD candidate in research mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density. We spent six weeks in the back country collecting mosquito samples from 20 lakes within eight different basins. We sorted mosquitoes to find females that had taken a recent blood meal in order to determine host species. Our results depict a declining mosquito abundance with increasing distance from trailheads and that humans, as a host population play a main role in contributing to increasing mosquito density.
 
+
+##Poster
 <style>
 .centered-image {
   display: block;
@@ -91,7 +93,7 @@ wo_arrowhead <- species_counts %>%
 ```
 
 
-## Poster
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=4, fig.height=4, fig.align='center'}
 library(plotly)
 
