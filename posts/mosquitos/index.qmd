@@ -92,7 +92,7 @@ wo_arrowhead <- species_counts %>%
 
 
 
-```{r, echo=FALSE, fig.width=8, fig.height=6, fig.align='center'}
+```{r, echo=FALSE, fig.width=6, fig.height=6, fig.align='center'}
 library(plotly)
 
 full <- ggplot(species_counts, aes(x = lake, y = count, fill = species_label)) +
