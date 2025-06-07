@@ -63,15 +63,23 @@ blood_2024 <- read_csv(
 
 ### Blood Meal ###
 species_counts <- blood_2024 %>% 
-  group_by(lake, species) %>% # group the vars by columns 'lake' and 'species'
-  dplyr::summarise(count = n(), .groups="drop") # total how many time the 'species' was ID'd at each 'lake'
-# then drop group_by() command - .groups = "drop
-
-species_counts$lake <- factor(species_counts$lake, levels = c("arrowhead", "skelton", "leb", "marsh", "hidden", "heart", "flower", "matlock",
-                                                      "big_mcgee", "pine", "upper_pine", "birchim", "honeymoon", 
-                                                      "pioneer_1", "pioneer_2", "lower_pioneer", "tully", "cotton", 
-                                                      "iw", "hortense", "elba", "moon"))
-
+  group_by(lake, species) %>% 
+  summarise(count = n(), .groups = "drop") %>% 
+  mutate(
+    species_label = recode(
+      species,
+      "Canis_lupus_familiaris" = "Dog",
+      "Homo_sapien" = "Human",
+      "Bos_taurus" = "Cow",
+      "Odocoileus_hemionus" = "Deer"
+    ),
+    lake = factor(lake, levels = c(
+      "arrowhead", "skelton", "leb", "marsh", "hidden", "heart", "flower", "matlock",
+      "big_mcgee", "pine", "upper_pine", "birchim", "honeymoon", 
+      "pioneer_1", "pioneer_2", "lower_pioneer", "tully", "cotton", 
+      "iw", "hortense", "elba", "moon"
+    ))
+  )
 # of the 61 samples - 26 came from lake arrowhead - so separated those out for potentiall
 # aiding in figure aesthetics 
 
@@ -85,13 +93,25 @@ wo_arrowhead <- species_counts %>%
 
 
 ```{r, echo=FALSE, fig.width=8, fig.height=6, fig.align='center'}
-full <- ggplot(species_counts, aes(x = lake, y = count, fill = species)) +
+library(plotly)
+
+full <- ggplot(species_counts, aes(x = lake, y = count, fill = species_label)) +
   geom_bar(stat = "identity", position = "stack") +
-  scale_fill_manual(values = c("Canis_lupus_familiaris" = "seagreen", "Homo_sapien" = "olivedrab", "Bos_taurus" = "lightgreen", "Odocoileus_hemionus" = "darkgreen"),
-                    labels = c( "Canis_lupus_familiaris" = "Dog", "Homo_sapien" = "Human", "Bos_taurus" = "Cow", "Odocoileus_hemionus" = "Deer"))+
+  scale_fill_manual(
+    values = c(
+      "Dog" = "seagreen",
+      "Human" = "olivedrab",
+      "Cow" = "lightgreen",
+      "Deer" = "darkgreen"
+    )
+  ) +
   labs(x = "Lakes", y = "Number of Detections", fill = "Species") +
-  theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-full
+  theme_classic()
+
+ggplotly(full) %>%
+  layout(
+    xaxis = list(tickangle = -45),
+    legend = list(title = list(text = "Species"))
+  )
 ```
 
