@@ -8,8 +8,6 @@ website:
   navbar:
     logo: logo1.png
     left:
-      - href: index.qmd
-        text: Home
       - about.qmd
       - projects.qmd
       - extra.qmd
