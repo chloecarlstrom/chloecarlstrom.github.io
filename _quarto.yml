@@ -4,9 +4,9 @@ project:
 
 website:
   title: "Chloe Carlstrom"
-  favicon: images/logo.png
+  favicon: logo1.png
   navbar:
-    logo: images/logo.png
+    logo: logo1.png
     left:
       - href: index.qmd
         text: Home
