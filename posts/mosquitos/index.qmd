@@ -27,7 +27,7 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 
 <img src="/images/poster-full.png" alt="Poster" class="centered-image">
 
-```{r}
+```{r, include=FALSE}
 library(tidyverse)
 library(here)
 library(ggsignif)
@@ -36,7 +36,7 @@ library(lme4)
 library(vegan)
 ```
 
-```{r}
+```{r, include=FALSE}
 ## concatenated data for both year (2024 & 2023) ##
 # data grouped to each mosquito sampling point that was binned to the lake that was sampled
 mos <- read_csv((here::here('mosquito_data.csv')))
@@ -59,7 +59,7 @@ blood_2024 <- read_csv(
 
 ```
 
-```{r}
+```{r, include=FALSE}
 
 ### Blood Meal ###
 species_counts <- blood_2024 %>% 
@@ -82,7 +82,7 @@ wo_arrowhead <- species_counts %>%
   filter(lake != "arrowhead") #filtering species_counts df for any rows in 'lake' without arrowhead
 ```
 
-```{r, fig.width=6, fig.height=4}
+```{r, echo=FALSE, fig.width=6, fig.height=4}
 full <- ggplot(species_counts, aes(x = lake, y = count, fill = species)) +
   geom_bar(stat = "identity", position = "stack") +
   scale_fill_manual(values = c("Canis_lupus_familiaris" = "seagreen", "Homo_sapien" = "olivedrab", "Bos_taurus" = "lightgreen", "Odocoileus_hemionus" = "darkgreen"),
