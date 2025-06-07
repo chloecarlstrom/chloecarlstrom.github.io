@@ -56,3 +56,6 @@ a:hover {
 .listing-description {
   display: none;
 }
+.navbar-brand img {
+  max-height: 80px; 
+}
