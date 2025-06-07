@@ -25,7 +25,5 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 }
 </style>
 
-## Poster
-
 <img src="/images/poster-full.png" alt="Poster" class="centered-image">
 
