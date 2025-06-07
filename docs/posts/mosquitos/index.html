@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Impact of Human Recreation on Mosquito Density in the Eastern Sierra Nevada</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Fieldwork</div>
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta column-page-left">
 
       <div>
       <div class="quarto-title-meta-heading">Authors</div>
@@ -156,53 +156,39 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#poster" id="toc-poster" class="nav-link active" data-scroll-target="#poster">Poster</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
 <p>I assisted a PhD candidate in research mosquito populations in the Eastern Sierra Nevada and how human activity drives mosquito density. We spent six weeks in the back country collecting mosquito samples from 20 lakes within eight different basins. We sorted mosquitoes to find females that had taken a recent blood meal in order to determine host species. Our results depict a declining mosquito abundance with increasing distance from trailheads and that humans, as a host population play a main role in contributing to increasing mosquito density.</p>
-<!-- Load Panzoom from CDN -->
-<script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@9.4.0/dist/panzoom.min.js"></script>
 <style>
-.zoom-container {
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;  /* Adjust size if needed */
   width: 100%;
-  max-width: 800px;
-  overflow: hidden;
   border: 1px solid #ccc;
-  margin: 2em auto;
-  touch-action: none;
-}
-
-.zoom-container img {
-  width: 100%;
-  cursor: grab;
-  user-select: none;
 }
 </style>
-<div class="zoom-container">
-<p><img id="zoomable-image" src="../../images/poster-full.png" alt="Zoomable Poster"></p>
-</div>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const el = document.getElementById('zoomable-image');
-    if (typeof panzoom === "function") {
-      window.pan = panzoom(el, {
-        maxScale: 5,
-        minScale: 1,
-        bounds: true,
-        boundsPadding: 0.1
-      });
-    }
-  });
-</script>
+<section id="poster" class="level2">
+<h2 data-anchor-id="poster">Poster</h2>
+<p><img src="../../images/poster-full.png" alt="Poster" class="centered-image"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
