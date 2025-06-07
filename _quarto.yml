@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Chloe Carlstrom"
+  favicon: logo.png
   navbar:
     left:
       - href: index.qmd
