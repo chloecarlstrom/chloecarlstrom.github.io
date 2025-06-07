@@ -5,7 +5,7 @@ toc: false
 about: 
   template: jolla
   image-shape: round
-  image-width: 20em
+  image-width: 30em
   links: 
     - text: LinkedIn
       href: https://www.linkedin.com/in/chloe-carlstrom-6a12a3333/
