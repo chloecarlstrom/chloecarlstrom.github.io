@@ -27,6 +27,72 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 
 <img src="/images/poster-full.png" alt="Poster" class="centered-image">
 
+```{r}
+library(tidyverse)
+library(here)
+library(ggsignif)
+library(ggpubr)
+library(lme4)
+library(vegan)
+
+install.packages("ggrepel")
+library(ggrepel)
+```
+
+```{r}
+## concatenated data for both year (2024 & 2023) ##
+# data grouped to each mosquito sampling point that was binned to the lake that was sampled
+mos <- read_csv((here::here('mosquito_data.csv')))
+
+mos_edit <- mos #editable dataframe in environment
+
+## alltrails.com data ## 
+# reviews & activities recorded in 2024 - reviews only for 2023
+#min and max distance from trail head for each basin
+alltrails <- read_csv((here::here('alltrails.csv')))
 
 
+##2024 Data - Not Concatenated to Lake##
+mos_2024 <- read_csv(
+  here::here("mos_2k24.csv"))
+
+## blood meal species IDs for 2024 ##
+blood_2024 <- read_csv(
+  here::here("2024_blood_ids.csv"))
+
+```
+
+```{r}
+
+### Blood Meal ###
+species_counts <- blood_2024 %>% 
+  group_by(lake, species) %>% # group the vars by columns 'lake' and 'species'
+  dplyr::summarise(count = n(), .groups="drop") # total how many time the 'species' was ID'd at each 'lake'
+# then drop group_by() command - .groups = "drop
+
+species_counts$lake <- factor(species_counts$lake, levels = c("arrowhead", "skelton", "leb", "marsh", "hidden", "heart", "flower", "matlock",
+                                                      "big_mcgee", "pine", "upper_pine", "birchim", "honeymoon", 
+                                                      "pioneer_1", "pioneer_2", "lower_pioneer", "tully", "cotton", 
+                                                      "iw", "hortense", "elba", "moon"))
+
+# of the 61 samples - 26 came from lake arrowhead - so separated those out for potentiall
+# aiding in figure aesthetics 
+
+arrowhead <- species_counts %>% 
+  filter(lake == "arrowhead") #filtering species_counts df for any rows in 'lake' for arrowhead
+
+wo_arrowhead <- species_counts %>% 
+  filter(lake != "arrowhead") #filtering species_counts df for any rows in 'lake' without arrowhead
+```
+
+```{r}
+full <- ggplot(species_counts, aes(x = lake, y = count, fill = species)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = c("Canis_lupus_familiaris" = "seagreen", "Homo_sapien" = "olivedrab", "Bos_taurus" = "lightgreen", "Odocoileus_hemionus" = "darkgreen"),
+                    labels = c( "Canis_lupus_familiaris" = "Dog", "Homo_sapien" = "Human", "Bos_taurus" = "Cow", "Odocoileus_hemionus" = "Deer"))+
+  labs(x = "Lakes", y = "Number of Detections", fill = "Species") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+full
+```
 
