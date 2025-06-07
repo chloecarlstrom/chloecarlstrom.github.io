@@ -91,7 +91,7 @@ wo_arrowhead <- species_counts %>%
 ```
 
 
-
+## Poster
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=4, fig.height=4, fig.align='center'}
 library(plotly)
 
@@ -117,5 +117,4 @@ ggplotly(full) %>%
 ```
 
 ## Figure 1. Blood Meal Results
-
 Hover over data for details! This figure shows the DNA blood meal results for mosquito host species at our lake sample sites. Lake distance from trail head increases on the x-axis. 
