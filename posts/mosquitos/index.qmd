@@ -85,7 +85,7 @@ wo_arrowhead <- species_counts %>%
   filter(lake != "arrowhead") #filtering species_counts df for any rows in 'lake' without arrowhead
 ```
 
-```{r}
+```{r, fig.width=6, fig.height=4}
 full <- ggplot(species_counts, aes(x = lake, y = count, fill = species)) +
   geom_bar(stat = "identity", position = "stack") +
   scale_fill_manual(values = c("Canis_lupus_familiaris" = "seagreen", "Homo_sapien" = "olivedrab", "Bos_taurus" = "lightgreen", "Odocoileus_hemionus" = "darkgreen"),
