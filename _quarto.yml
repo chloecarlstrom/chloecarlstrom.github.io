@@ -6,6 +6,7 @@ website:
   title: "Chloe Carlstrom"
   favicon: logo.png
   navbar:
+    logo: logo.png
     left:
       - href: index.qmd
         text: Home
