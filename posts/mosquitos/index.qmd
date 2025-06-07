@@ -109,6 +109,7 @@ full <- ggplot(species_counts, aes(x = lake, y = count, fill = species_label)) +
   theme_classic()
 
 ggplotly(full) %>%
+  config(displayModeBar = FALSE) %>% 
   layout(
     xaxis = list(tickangle = -45),
     legend = list(title = list(text = "Species"))
