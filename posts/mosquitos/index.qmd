@@ -34,9 +34,6 @@ library(ggsignif)
 library(ggpubr)
 library(lme4)
 library(vegan)
-
-install.packages("ggrepel")
-library(ggrepel)
 ```
 
 ```{r}
