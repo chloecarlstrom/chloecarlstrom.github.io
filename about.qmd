@@ -32,8 +32,8 @@ I love everything outdoors! I grew up camping and backpacking. I love to run, bi
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
 
-  <img src="/images/halfmary.jpeg" alt="Photo 1" style="height: 250px; object-fit: cover;" />
-  <img src="/images/biking.jpeg" alt="Photo 2" style="height: 250px; object-fit: cover;" />
+  <img src="/images/halfmary.jpeg" alt="Photo 1" style="height: 300px; object-fit: cover;" />
+  <img src="/images/biking.jpeg" alt="Photo 2" style="height: 300px; object-fit: cover;" />
   
 </div>
 
