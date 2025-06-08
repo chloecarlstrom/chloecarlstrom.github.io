@@ -127,6 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#compost" id="toc-compost" class="nav-link" data-scroll-target="#compost">Compost!</a></li>
   </ul></li>
+  <li><a href="#clickable-image-gallery" id="toc-clickable-image-gallery" class="nav-link" data-scroll-target="#clickable-image-gallery">📸 Clickable Image Gallery</a></li>
   </ul>
 </nav>
     </div>
@@ -157,33 +158,39 @@ ul.task-list li input[type="checkbox"] {
 <p>As one of a team of “worm wranglers” I attend to the Edible Campus Program student farm as well as help with operations of our compost piles. We aim to create a closed loop food system by growing organic produce at the farm, donating this produce to the A.S. Food Bank to be distributed to students, and collecting and composting food scraps from the dining halls and campus housing to create rich compost that can be utilized to nourish our crops.</p>
 <section id="compost" class="level3">
 <h3 data-anchor-id="compost">Compost!</h3>
-<!-- Lightbox assets -->
-<link href="lightbox/lightbox.min.css" rel="stylesheet">
-<script src="lightbox/lightbox.min.js"></script>
-<div class="photo-grid">
-<p><a href="./images/compost1.jpeg" data-lightbox="gallery"> <img src="./images/compost1.jpeg" alt="Photo 1"> </a> <a href="./images/wormbin.jpeg" data-lightbox="gallery"> <img src="./images/wormbin.jepg" alt="Photo 2"> </a> <a href="./images/diningcommons1.jpeg" data-lightbox="gallery"> <img src="./images/diningcommons1.jpeg" alt="Photo 3"> </a></p>
+<!-- ✅ PhotoSwipe CSS/JS from CDN -->
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+<script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js" type="module"></script>
+</section>
+</section>
+<section id="clickable-image-gallery" class="level2">
+<h2 data-anchor-id="clickable-image-gallery">📸 Clickable Image Gallery</h2>
+<div id="gallery" class="gallery">
+<p><a href="./images/compost1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank"> <img src="./images/compost1.jpeg" width="250"> </a> <a href="./images/wormbin.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank"> <img src="./images/wormbin.jpeg" width="250"> </a></p>
 </div>
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js')
+  });
+  lightbox.init();
+</script>
 <style>
-.photo-grid {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
-.photo-grid a img {
-  width: 250px;
-  height: auto;
+.gallery img {
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-.photo-grid a img:hover {
-  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 </style>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
