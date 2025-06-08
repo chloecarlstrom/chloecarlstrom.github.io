@@ -121,6 +121,8 @@ ggplotly(full) %>%
 
 ## Code
 
+Code for cleaning and organizing data and creating figure shown above.
+
 <img src="/images/data1code.png" alt="My Image" width="650" style="display: block; margin: auto;" />
 
 <img src="/images/data2code.png" alt="My Image" width="650" style="display: block; margin: auto;" />
