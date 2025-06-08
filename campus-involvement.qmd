@@ -9,7 +9,6 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
 
 ### Compost!
 
-<!-- ✅ Load PhotoSwipe CSS and JS from CDN -->
 <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
@@ -35,6 +34,16 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
   <a href="images/diningcommons1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/diningcommons1.jpeg" width="250" />
   </a>
+  <a href="images/compost3.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/compost3.jpeg" width="250" />
+   </a>
+    <a href="images/diningcommons2.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/diningcommons2.jpeg" width="250" />
+  </a>
+    <a href="images/finishedcomp.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/finishedcomp.jpeg" width="250" />
+  </a>
+  
 </div>
 
 <script type="module">
@@ -62,8 +71,44 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
 
 ### Farm!
 
-
-
+<div class="gallery" id="gallery">
+  <a href="images/farm.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/farm.jpeg" width="250" />
+  </a>
+  <a href="images/strawbs.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/strawbs.jpeg" width="250" />
+  </a>
+  <a href="images/farmflowers.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/farmflowers.jpeg" width="250" />
+  </a>
+  <a href="images/cabbage.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/cabbage.jpeg" width="250" />
+  </a>
+  <a href="images/corn.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/corn.jpeg" width="250" />
+  </a>
+    <a href="images/farm1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/farm1.jpeg" width="250" />
+  </a>
+</div>
 
 
 ### Harvest!
+
+<div class="gallery" id="gallery">
+<a href="images/tomatoes.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/tomatoes.jpeg" width="250" />
+  </a>
+  <a href="images/roots.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/roots.jpeg" width="250" />
+  </a>
+  <a href="images/potatoes.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/potatoes.jpeg" width="250" />
+  </a>
+  <a href="images/squash.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/squash.jpeg" width="250" />
+  </a>
+    <a href="images/chloeharvest.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/chloeharvest.jpeg" width="250" />
+  </a>
+<div>
