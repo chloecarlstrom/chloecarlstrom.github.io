@@ -17,7 +17,7 @@ categories: [Research]
 summary: " "
 ---
 
-**Affiliation:** {{< meta affiliation >}}
+**Course** {{< meta affiliation >}}
 
 In my conservation planning class we worked in groups to write a comprehensive conservation plan for a threatened ecosystem or organism. My group's plan is focused on the Great Sea Reef (Cakaulevu) in Fiji.  [**Click here to view our slide presentation**](/posts/seareef/ES137.S2023GiantSeaReefpres.pdf)
 
