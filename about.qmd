@@ -9,7 +9,7 @@ I was born and raised in San Francisco, California. I grew up spending lots of t
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
 
-  <img src="/images/backpacking.jpeg" alt="Photo 1" style="height: 300px; object-fit: cover;" />
+  <img src="/images/backpacking.jpeg" alt="Photo 1" style="height: 400px; object-fit: cover;" />
 
 </div>
 
@@ -29,3 +29,12 @@ I currently attend UCSB, where I am pursuing a degree in Environmental Studies. 
 ## Interests
 
 I love everything outdoors! I grew up camping and backpacking. I love to run, bike, and surf. I enjoy cooking and crafting, such as knitting, crocheting, or watercolor. I am passionate about working towards a sustainable future, working on climate change mitigation, and protecting biodiversity.
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+
+  <img src="/images/halfmary.jpeg" alt="Photo 1" style="height: 250px; object-fit: cover;" />
+  <img src="/images/biking.jpeg" alt="Photo 2" style="height: 250px; object-fit: cover;" />
+  
+</div>
+
+
