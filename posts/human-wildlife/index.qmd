@@ -1,6 +1,6 @@
 ---
 title: "Challenges for Human-Wildlife Coexistence Emerging from Increased Subdivision in the Huife Watershed"
-author: 
+author:
   - name: Chloe Carlstrom
   - name: Fiona Jeweler
   - name: Kate Joos
@@ -9,13 +9,9 @@ author:
   - name: Sadie Shoemaker
 date: 2023-11-30
 image: /images/humanwildlife.jpeg
-draft: FALSE
 format: html
 categories: [Research]
-summary: " " 
+summary: " "
 ---
 
-During my study abroad program I worked on two month long research project with my classmates. We chose to focus on how meso-carnivores interact with human populations within our study area in southern Chile. "
-format: html
----
-
+During my study abroad program I worked on a two month long research project with a group of my classmates. We chose to focus on how meso-carnivores interacted with human populations within our study region in southern Chile. 
