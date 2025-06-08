@@ -8,7 +8,7 @@ author:
   - name: Karmenita Cox
   - name: Ivan Ortiz
   - name: Jeanne Couture
-affiliation: ENVS 137: Conservation Planning
+affiliation: "ENVS 137: Conservation Planning"
 date: 2023-06-10
 draft: FALSE
 image: /images/seareef.png
