@@ -1,12 +1,9 @@
 ---
-title: "Resume/CV"
+title: "Resumé
 format: html
 ---
 
 [**Click here to download**](resume.pdf)
-
-<iframe src="resume.pdf" width="100%" height="700px" style="border: none;"></iframe>
-
 
 ## Experience
 **AMIGOS de las Américas, Panamá** — Project Supervisor <br>
