@@ -158,9 +158,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="compost" class="level3">
 <h3 data-anchor-id="compost">Compost!</h3>
 <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
-<script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js" type="module"></script>
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
+  import PhotoSwipeCaptionPlugin from 'https://unpkg.com/photoswipe@5/dist/photoswipe-caption-plugin.esm.min.js';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js'),
+    plugins: [PhotoSwipeCaptionPlugin],
+    captionPlugin: {
+      type: 'auto', // show caption if `data-caption` is present
+    }
+  });
+
+  lightbox.init();
+</script>
 <div id="gallery" class="gallery">
-<p><a href="./images/compost1.jpeg" data-pswp-width="600" data-pswp-height="800" data-pswp-caption="Active compost pile" target="_blank"> <img src="./images/compost1.jpeg" width="250"> </a> <a href="./images/wormbin.jpeg" data-pswp-width="600" data-pswp-height="800" data-pswp-caption="Worm bin compost" target="_blank"> <img src="./images/wormbin.jpeg" width="250"> </a> <a href="./images/diningcommons1.jpeg" data-pswp-width="600" data-pswp-height="800" data-pswp-caption="Food scraps from the dining hall" target="_blank"> <img src="./images/diningcommons1.jpeg" width="250"> </a></p>
+<p><a href="./images/compost1.jpeg" data-pswp-width="600" data-pswp-height="800" data-caption="Active compost pile" target="_blank"> <img src="./images/compost1.jpeg" width="250"> </a> <a href="./images/wormbin.jpeg" data-pswp-width="600" data-pswp-height="800" data-caption="Worm bin compost" target="_blank"> <img src="./images/wormbin.jpeg" width="250"> </a> <a href="./images/diningcommons1.jpeg" data-pswp-width="600" data-pswp-height="800" data-caption="Food scraps from dining hall" target="_blank"> <img src="./images/diningcommons1.jpeg" width="250"> </a></p>
 </div>
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
