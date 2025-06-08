@@ -3,9 +3,44 @@ title: "Campus Involvement"
 format: html
 ---
 
-## UCSB Associated Students Department of Public Worms
+## UCSB Associated Students Department of Public Worms🪱
 
 As one of a team of "worm wranglers" I attend to the Edible Campus Program student farm as well as help with operations of our compost piles. We aim to create a closed loop food system by growing organic produce at the farm, donating this produce to the A.S. Food Bank to be distributed to students, and collecting and composting food scraps from the dining halls and campus housing to create rich compost that can be utilized to nourish our crops. 
 
 ### Compost!
 
+<!-- Lightbox assets -->
+<link href="lightbox/lightbox.min.css" rel="stylesheet" />
+<script src="lightbox/lightbox.min.js"></script>
+
+
+<div class="photo-grid">
+  <a href="/images/compost1.jpeg" data-lightbox="gallery">
+    <img src="/images/compost1.jpeg" alt="Photo 1">
+  </a>
+  <a href="/images/wormbin.jpeg" data-lightbox="gallery">
+    <img src="/images/wormbin.jepg" alt="Photo 2">
+  </a>
+  <a href="/images/diningcommons1.jpeg" data-lightbox="gallery">
+    <img src="/images/diningcommons1.jpeg" alt="Photo 3">
+  </a>
+</div>
+
+<style>
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.photo-grid a img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.photo-grid a img:hover {
+  transform: scale(1.05);
+}
+</style>
