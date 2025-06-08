@@ -3,6 +3,7 @@ title: "Impact of Human Recreation on Mosquito Density in the Eastern Sierra Nev
 author:
   - name: Chloe Carlstrom
   - name: Stephanie Copeland
+    affiliation: "Young Lab"
   - name: Kate Joos
 date: 2025-05-02
 image: /images/sierras1.jpeg
