@@ -36,8 +36,8 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: aquamarine;
-  border-color: aquamarine;
+  background-color: #bdf2d2;
+  border-color: #bdf2d2;
 }
 
 .navbar {
@@ -51,7 +51,7 @@ a:hover {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: aquamarine !important;
+  color: #bdf2d2 !important;
   font-weight: bold;
 }
 .listing-description {
