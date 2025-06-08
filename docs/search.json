@@ -173,5 +173,12 @@
     "title": "Campus Involvement",
     "section": "Harvest!",
     "text": "Harvest!"
+  },
+  {
+    "objectID": "campus-involvement.html#compost-soil-photos",
+    "href": "campus-involvement.html#compost-soil-photos",
+    "title": "Campus Involvement",
+    "section": "🪱 Compost & Soil Photos",
+    "text": "🪱 Compost & Soil Photos\n\n\n\n\n&lt;a href=\"/images/compost1.jpeg\" data-pswp-width=\"600\" data-pswp-height=\"800\"&gt;\n  &lt;img src=\"/images/compost1.jpeg\" alt=\"Photo 1\"&gt;\n&lt;/a&gt;\n&lt;p class=\"caption\"&gt;Active compost pile&lt;/p&gt;\n\n\n&lt;a href=\"/images/wormbin.jpeg\" data-pswp-width=\"600\" data-pswp-height=\"800\"&gt;\n  &lt;img src=\"/images/wormbin.jpeg\" alt=\"Photo 2\"&gt;\n&lt;/a&gt;\n&lt;p class=\"caption\"&gt;Worm bin compost&lt;/p&gt;"
   }
 ]
