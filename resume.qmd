@@ -3,6 +3,11 @@ title: "Resume/CV"
 format: html
 ---
 
+[**Click here to download**](resume.pdf)
+
+<iframe src="resume.pdf" width="100%" height="700px" style="border: none;"></iframe>
+
+
 ## Experience
 **AMIGOS de las Américas, Panamá** — Project Supervisor <br>
 *June 2025 - August 2025* <br>
@@ -26,21 +31,21 @@ I assisted in the restoration of local vernal pools, I  conducted vegetation sur
 
 ## Education
 **Pontificia Universidad Católica de Chile**
-*September 2023 - December 2023* | GPA: 4.0
+*September 2023 - December 2023* | GPA: 4.0 <br>
 I participated in a study abroad program in southern Chile focusing on socio-ecological sustainability. 
 
 **UC Santa Barbara**
-*September 2021 - current* | GPA: 3.80 - Honors
+*September 2021 - current* | GPA: 3.80 - Honors <br>
 I am pursuing a degree in Environmental Studies, B.S.
 
 ## Certifications
-Youth Mental Health First Aid
-Adult First Aid/CPR/AED
-Smith Certified Driver
-PADI Open Water Scuba Dive
+Youth Mental Health First Aid <br>
+Adult First Aid/CPR/AED <br>
+Smith Certified Driver <br>
+PADI Open Water Scuba Diver <br>
 
 ## Awards 
-Schmitt Family Foundation Fellowship 
+Schmitt Family Foundation Fellowship <br>
 Dean’s Honors
 
 
