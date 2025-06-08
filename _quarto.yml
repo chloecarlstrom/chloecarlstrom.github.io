@@ -10,7 +10,7 @@ website:
     left:
       - about.qmd
       - projects.qmd
-      - extra.qmd
+      - campus-involvement.qmd
       - resume.qmd
 
 format:
