@@ -119,4 +119,10 @@ ggplotly(full) %>%
   )
 ```
 
+## Code
 
+<img src="/images/data1code.png" alt="My Image" width="300" style="display: block; margin: auto;" />
+
+<img src="/images/data2code.png" alt="My Image" width="300" style="display: block; margin: auto;" />
+
+<img src="/images/figurecode.png" alt="My Image" width="600" style="display: block; margin: auto;" />
