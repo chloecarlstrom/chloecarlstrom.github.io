@@ -17,5 +17,5 @@ summary: " "
 During my study abroad program I worked on a two month long research project with a group of my classmates. We chose to focus on how meso-carnivores interacted with human populations within our study region in southern Chile. Below is our research paper.
 
 ::: {style="height: 600px;"}
-<iframe src="human-wildlife.pdf" width="100%" height="100%" style="border: none;"></iframe>
+<iframe src="/posts/human-wildlife/human-wildlife.pdf" width="100%" height="100%" style="border: none;"></iframe>
 :::
