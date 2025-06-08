@@ -38,7 +38,7 @@ library(lme4)
 library(vegan)
 ```
 
-```{r, include=FALSE}
+```{r}
 ## concatenated data for both year (2024 & 2023) ##
 # data grouped to each mosquito sampling point that was binned to the lake that was sampled
 mos <- read_csv((here::here('mosquito_data.csv')))
@@ -61,7 +61,7 @@ blood_2024 <- read_csv(
 
 ```
 
-```{r, include=FALSE}
+```{r}
 
 ### Blood Meal ###
 species_counts <- blood_2024 %>% 
@@ -95,7 +95,7 @@ wo_arrowhead <- species_counts %>%
 
 ## Figure 1. Blood Meal Results
 Hover over data for details! This figure shows the DNA blood meal results for mosquito host species at our lake sample sites. Lake distance from trail head increases on the x-axis. 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=4, fig.height=4, fig.align='center'}
+```{r, message=FALSE, warning=FALSE, fig.width=4, fig.height=4, fig.align='center'}
 library(plotly)
 
 full <- ggplot(species_counts, aes(x = lake, y = count, fill = species_label)) +
