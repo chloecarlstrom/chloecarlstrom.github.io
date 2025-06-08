@@ -10,9 +10,15 @@ author:
   - name: Jeanne Couture
 affiliation: ENVS 137: Conservation Planning
 date: 2023-06-10
+draft: FALSE
 image: /images/seareef.png
 format: html
 categories: [Research]
 summary: " "
 ---
 
+In my conservation planning class we worked in groups to write a comprehensive conservation plan for a threatened ecosystem or organism. My group's plan is focused on the Great Sea Reef (Cakaulevu) in Fiji.  [**Click here to view our slide presentation**](/posts/seareef/ES137.S2023GiantSeaReefpres.pdf)
+
+::: {style="height: 600px;"}
+<iframe src="/posts/seareef/ES137.S2023.GiantSeaReef.pdf" width="100%" height="100%" style="border: none;"></iframe>
+:::
