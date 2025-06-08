@@ -9,18 +9,18 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
 
 ### Compost!
 
-<!-- ✅ PhotoSwipe CSS/JS from CDN -->
 <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
 <script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js" type="module"></script>
 
-## 📸 Clickable Image Gallery
-
 <div class="gallery" id="gallery">
-  <a href="/images/compost1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+  <a href="/images/compost1.jpeg" data-pswp-width="600" data-pswp-height="800" data-pswp-caption="Active compost pile" target="_blank">
     <img src="/images/compost1.jpeg" width="250" />
   </a>
-  <a href="/images/wormbin.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+  <a href="/images/wormbin.jpeg" data-pswp-width="600" data-pswp-height="800" data-pswp-caption="Worm bin compost" target="_blank">
     <img src="/images/wormbin.jpeg" width="250" />
+  </a>
+   <a href="/images/diningcommons1.jpeg" data-pswp-width="600" data-pswp-height="800" data-pswp-caption="Food scraps from the dining hall" target="_blank">
+    <img src="/images/diningcommons1.jpeg" width="250" />
   </a>
 </div>
 
