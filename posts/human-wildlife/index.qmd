@@ -15,4 +15,7 @@ categories: [Research]
 summary: " " 
 ---
 
-During my study abroad program I worked on two month long research project with my classmates. We chose to focus on how meso-carnivores interact with human populations within our study area in southern Chile. 
+During my study abroad program I worked on two month long research project with my classmates. We chose to focus on how meso-carnivores interact with human populations within our study area in southern Chile. "
+format: html
+---
+
