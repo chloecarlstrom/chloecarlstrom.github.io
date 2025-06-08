@@ -7,6 +7,12 @@ format: html
 
 I was born and raised in San Francisco, California. I grew up spending lots of time in nature whether that was playing sports or hiking. I fell in love with the outdoors at a young age and have been passionate about the environment ever since!
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+
+  <img src="/images/backpacking.jpeg" alt="Photo 1" style="height: 300px; object-fit: cover;" />
+
+</div>
+
 
 ## Education
 
@@ -14,9 +20,9 @@ I currently attend UCSB, where I am pursuing a degree in Environmental Studies. 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
 
-  <img src="/images/torresdelpaine.jpg" alt="Photo 1" style="height: 200px; object-fit: cover;" />
-  <img src="/images/atacama.jpeg" alt="Photo 2" style="height: 200px; object-fit: cover;" />
-  <img src="/images/volcano.jpeg" alt="Photo 3" style="height: 200px; object-fit: cover;" />
+  <img src="/images/torresdelpaine.jpg" alt="Photo 1" style="height: 250px; object-fit: cover;" />
+  <img src="/images/atacama.jpeg" alt="Photo 2" style="height: 250px; object-fit: cover;" />
+  <img src="/images/volcano.jpeg" alt="Photo 3" style="height: 250px; object-fit: cover;" />
 
 </div>
 
