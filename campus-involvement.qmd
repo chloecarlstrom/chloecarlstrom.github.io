@@ -12,47 +12,6 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
 <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
-  import PhotoSwipeCaptionPlugin from 'https://unpkg.com/photoswipe@5/dist/photoswipe-caption-plugin.esm.min.js';
-
-  const lightbox = new PhotoSwipeLightbox({
-    gallery: '#gallery',
-    children: 'a',
-    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js'),
-    plugins: [PhotoSwipeCaptionPlugin],
-    captionPlugin: {
-      type: 'auto', // show caption if `data-caption` is present
-    }
-  });
-
-  lightbox.init();
-</script>
-
-<div class="gallery" id="gallery">
-  <a href="/images/compost1.jpeg"
-     data-pswp-width="600"
-     data-pswp-height="800"
-     data-caption="Active compost pile"
-     target="_blank">
-    <img src="/images/compost1.jpeg" width="250" />
-  </a>
-  <a href="/images/wormbin.jpeg"
-     data-pswp-width="600"
-     data-pswp-height="800"
-     data-caption="Worm bin compost"
-     target="_blank">
-    <img src="/images/wormbin.jpeg" width="250" />
-  </a>
-   <a href="/images/diningcommons1.jpeg"
-     data-pswp-width="600"
-     data-pswp-height="800"
-     data-caption="Food scraps from dining hall"
-     target="_blank">
-    <img src="/images/diningcommons1.jpeg" width="250" />
-  </a>
-</div>
-
-<script type="module">
-  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
   const lightbox = new PhotoSwipeLightbox({
     gallery: '#gallery',
     children: 'a',
@@ -61,15 +20,52 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
   lightbox.init();
 </script>
 
+<div class="gallery" id="gallery">
+  <div class="gallery-item">
+    <a href="/images/compost1.jpeg" data-pswp-width="600" data-pswp-height="800">
+      <img src="/images/compost1.jpeg" alt="Photo 1">
+    </a>
+    <p class="caption">Active compost pile</p>
+  </div>
+  <div class="gallery-item">
+    <a href="/images/wormbin.jpeg" data-pswp-width="600" data-pswp-height="800">
+      <img src="/images/wormbin.jpeg" alt="Photo 2">
+    </a>
+    <p class="caption">Worm bin compost</p>
+  </div>
+</div>
+
 <style>
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
+  text-align: center;
 }
-.gallery img {
+
+.gallery-item {
+  max-width: 250px;
+}
+
+.gallery-item img {
+  width: 100%;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
 }
 </style>
+
+## Farm!
+
+
+
+
+
+## Harvest!
