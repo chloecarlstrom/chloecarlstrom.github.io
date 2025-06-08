@@ -1,0 +1,17 @@
+---
+title: "Challenges for Human-Wildlife Coexistence Emerging from Increased Subdivision in the Huife Watershed"
+author: 
+  - name: Chloe Carlstrom
+  - name: Fiona Jeweler
+  - name: Kate Joos
+  - name: Elijah Lurie
+  - name: Reed Ochalek
+  - name: Sadie Shoemaker
+date: 2023-11-30
+image: /images/humanwildlife.jpeg
+draft: FALSE
+format: html
+categories: [Research]
+summary: " " 
+---
+
