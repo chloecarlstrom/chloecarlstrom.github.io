@@ -87,7 +87,7 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
   <a href="images/corn.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/corn.jpeg" width="250" />
   </a>
-    <a href="images/farm1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+  <a href="images/farm1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/farm1.jpeg" width="250" />
   </a>
 </div>
@@ -111,4 +111,33 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
     <a href="images/chloeharvest.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/chloeharvest.jpeg" width="250" />
   </a>
-<div>
+  <a href="images/harvestbowl.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/harvestbowl.jpeg" width="250" />
+  </a>
+</div>
+
+## UCSB Adventure Programs
+As staff for Adventure Programs I facilitate and lead training trips for incoming staff and outdoor trips for students interested in experiencing the outdoors. This ranges from leading backpacking trips in Joshua Tree to help our new staff become comfortable hiking and camping in the back-country to leading a week long canoe trip on the Colorado River for incoming freshman to help them grow and meet new people as they start this new chapter.
+
+### Trips!
+
+<div class="gallery" id="gallery">
+<a href="images/jtree1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/jtree1.jpeg" width="250" />
+  </a>
+  <a href="images/jtree2.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/jtree2.jpeg" width="250" />
+  </a>
+  <a href="images/jtree3.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/jtree3.jpeg" width="250" />
+  </a>
+  <a href="images/canoe1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/canoe1.jpeg" width="250" />
+  </a>
+    <a href="images/canoe3.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/canoe3.jpeg" width="250" />
+  </a>
+  <a href="images/canoe2.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/canoe2.jpeg" width="250" />
+  </a>
+</div>
