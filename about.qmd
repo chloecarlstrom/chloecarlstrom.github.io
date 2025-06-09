@@ -9,7 +9,10 @@ I was born and raised in San Francisco, California. I grew up spending lots of t
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
 
-  <img src="/images/backpacking.jpeg" alt="Photo 1" style="height: 400px; object-fit: cover;" />
+  <figure style="margin: 0; text-align: center;">
+    <img src="/images/backpacking.jpeg" alt="Photo 1" style="border-radius: 15px; height: 400px; object-fit: cover;" />
+    <figcaption>Backpacking in the Sierras age 6</figcaption>
+  </figure>
 
 </div>
 
@@ -20,10 +23,18 @@ I currently attend UCSB, where I am pursuing a degree in Environmental Studies. 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
 
-  <img src="/images/torresdelpaine.jpg" alt="Photo 1" style="height: 250px; object-fit: cover;" />
-  <img src="/images/atacama.jpeg" alt="Photo 2" style="height: 250px; object-fit: cover;" />
-  <img src="/images/volcano.jpeg" alt="Photo 3" style="height: 250px; object-fit: cover;" />
-
+  <figure style="margin: 0; text-align: center;">
+    <img src="/images/torresdelpaine.jpg" alt="Photo 1" style="border-radius: 15px; height: 250px; object-fit: cover;" />
+    <figcaption>Torres del Paine, Patagonia</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="/images/atacama.jpeg" alt="Photo 1" style="border-radius: 15px; height: 250px; object-fit: cover;" />
+    <figcaption>Atacama Desert</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="/images/volcano.jpeg" alt="Photo 1" style="border-radius: 15px; height: 250px; object-fit: cover;" />
+    <figcaption>Climbing Quetrupillan Volcano</figcaption>
+  </figure>
 </div>
 
 ## Interests
@@ -32,9 +43,12 @@ I love everything outdoors! I grew up camping and backpacking. I love to run, bi
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
 
-  <img src="/images/halfmary.jpeg" alt="Photo 1" style="height: 300px; object-fit: cover;" />
-  <img src="/images/biking.jpeg" alt="Photo 2" style="height: 300px; object-fit: cover;" />
-  
+  <figure style="margin: 0; text-align: center;">
+    <img src="/images/halfmary.jpeg" alt="Photo 1" style="border-radius: 15px; height: 250px; object-fit: cover;" />
+    <figcaption>Santa Barbara Half Marathon</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="/images/biking.jpeg" alt="Photo 1" style="border-radius: 15px; height: 250px; object-fit: cover;" />
+    <figcaption>Biking in Santa Barbara foothills</figcaption>
+  </figure>
 </div>
-
-

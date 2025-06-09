@@ -8,7 +8,7 @@ format: html
 As one of a team of "worm wranglers" I attend to the Edible Campus Program student farm as well as help with operations of our compost piles. We aim to create a closed loop food system by growing organic produce at the farm, donating this produce to the A.S. Food Bank to be distributed to students, and collecting and composting food scraps from the dining halls and campus housing to create rich compost that can be utilized to nourish our crops. 
 
 ### Compost!
-
+Click on images to enlarge
 <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
@@ -116,11 +116,12 @@ As one of a team of "worm wranglers" I attend to the Edible Campus Program stude
   </a>
 </div>
 
-## UCSB Adventure Programs
+
+## UCSB Adventure Programs⛺️
 As staff for Adventure Programs I facilitate and lead training trips for incoming staff and outdoor trips for students interested in experiencing the outdoors. This ranges from leading backpacking trips in Joshua Tree to help our new staff become comfortable hiking and camping in the back-country to leading a week long canoe trip on the Colorado River for incoming freshman to help them grow and meet new people as they start this new chapter.
 
 ### Trips!
-
+Click on images to enlarge
 <div class="gallery" id="gallery">
 <a href="images/jtree1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/jtree1.jpeg" width="250" />
@@ -134,10 +135,11 @@ As staff for Adventure Programs I facilitate and lead training trips for incomin
   <a href="images/canoe1.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/canoe1.jpeg" width="250" />
   </a>
-    <a href="images/canoe3.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
-    <img src="images/canoe3.jpeg" width="250" />
+    <a href="images/canoe4.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
+    <img src="images/canoe4.jpeg" width="250" />
   </a>
   <a href="images/canoe2.jpeg" data-pswp-width="600" data-pswp-height="800" target="_blank">
     <img src="images/canoe2.jpeg" width="250" />
   </a>
 </div>
+

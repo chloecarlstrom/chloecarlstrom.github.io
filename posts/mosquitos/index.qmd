@@ -17,18 +17,27 @@ I assisted a PhD candidate in research mosquito populations in the Eastern Sierr
 
 
 ## Poster 
-<style>
-.centered-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;  /* Adjust size if needed */
-  width: 100%;
-  border: 1px solid #ccc;
-}
-</style>
+Click to enlarge
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
 
-<img src="/images/poster-full.png" alt="Poster" class="centered-image">
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js')
+  });
+  lightbox.init();
+</script>
+
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
+<script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js" type="module"></script>
+
+<div class="gallery" id="gallery" style="display: flex; justify-content: center; align-items: center;">
+  <a href="/images/poster-full.png" data-pswp-width="1000" data-pswp-height="800" target="_blank">
+    <img src="/images/poster-full.png" width="800" />
+  </a>
+</div>
 
 ```{r, include=FALSE}
 library(tidyverse)
@@ -94,7 +103,7 @@ wo_arrowhead <- species_counts %>%
 ```
 
 
-## Figure 1. Blood Meal Results
+## Figure: Blood Meal Results
 Hover over data for details! This figure shows the DNA blood meal results for mosquito host species at our lake sample sites. Lake distance from trail head increases on the x-axis. 
 ```{r,echo=FALSE, message=FALSE, warning=FALSE, fig.width=4, fig.height=4, fig.align='center'}
 library(plotly)
